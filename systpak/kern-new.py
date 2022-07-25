@@ -179,7 +179,7 @@ async def on_message(message):
       await message.channel.send ("Installing..")
       os.chdir("..")
       os.system('rm up.py')
-      os.system('curl https://updatepakager.legamer4.repl.co/up-new.py > up.py')
+      os.system('curl https://github.com/toude-archs/ShellBot-OS/blob/main/systpak/up-new.py > up.py')
       os.chdir("Userfolder")
       await message.channel.send ("Done")
 
