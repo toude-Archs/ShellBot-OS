@@ -1,2 +1,2 @@
 # ShellBot-OS
-A bot Discord But Is Debian On the bot
+A bot Discord But Is Debian Kernel
