@@ -22,7 +22,7 @@ async def my_background_task():
             await channel.send('testing from hard drive...ERROR\ntesting network conectivity')
             print('testing hard drive...ERROR\ntesting network conectivity')
             os.system("rm knet.py")
-            os.system("curl https://updatepakager.legamer4.repl.co/systpak/knet-new.py > knet.py")
+            os.system("curl https://github.com/toude-archs/ShellBot-OS/blob/main/systpak/knet-new.py > knet.py")
             os.system("python3 knet.py")
             break;
 
